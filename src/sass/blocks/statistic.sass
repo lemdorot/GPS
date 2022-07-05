@@ -1,0 +1,94 @@
+.statistic
+    display: flex
+    justify-content: space-between
+
+.statistic_item
+    display: flex
+    flex-direction: column
+    margin-right: 179px
+
+    &:last-child
+        margin-right: 0
+
+    &:first-child .statistic_desc,
+    &:first-child .statistic_percent
+        box-shadow: 0 9px 5px -5px rgb(0 0 0 / 25%)
+        
+
+.statistic_list
+    display: flex
+    width: 53%
+    padding-top: 51px
+    padding-left: 51px
+    padding-bottom: 50px
+
+    background: #FFC633
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 30px 0px 0px 30px
+    
+.statistic_desc,
+.statistic_text
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 21px
+    text-transform: uppercase
+    color: #FFFFFF
+    text-align: center
+
+.statistic_text
+    display: flex
+    flex-direction: column
+    height: 100%
+    justify-content: center
+
+.statistic_desc
+    padding-bottom: 21px
+    margin-bottom: 9px
+    border-bottom: 2px solid #FFFFFF
+        
+
+.statistic_percent
+    margin-bottom: 22px
+    padding-bottom: 10px
+
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 800
+    font-size: 70px
+    line-height: 70px
+    text-transform: uppercase
+    color: #24173D
+    text-align: center
+    border-bottom: 2px solid #FFFFFF
+
+    & span 
+        font-size: 30px
+        text-transform: none
+        line-height: 30px
+
+.statistic_title
+    position: relative
+
+    width: 35%
+    margin-left: 99px
+    margin-top: 24px
+
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 900
+    font-size: 44px
+    line-height: 77px
+    text-transform: uppercase
+    color: #24173D
+
+    &::before
+        display: block
+        width: 5px
+        height: 263px
+        content: ''
+        position: absolute
+        background-color: #24173D
+        bottom: 27px
+        left: -24px
